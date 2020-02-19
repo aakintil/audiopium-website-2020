@@ -41,6 +41,10 @@ body {
 }
 
 /* globals */
+
+img {
+    /* max-width: none !important; */
+}
 button {
     border: none;
     border-radius: 64px;
@@ -50,6 +54,10 @@ button {
     letter-spacing: 0.5px;
     font-weight: 700;
     font-size: 16px;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 header,
@@ -168,6 +176,7 @@ header .navbar a,
 .section-signup {
     color: #008CCE;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .section-signup button {

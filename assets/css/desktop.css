@@ -1,14 +1,91 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    /* globals */
+    button {
+        width: 400px !important;
+        min-height: 64px !important;
+    }
+
+    section {
+        height: 500px;
+        align-items: center;
+    }
+
+    header .logo,
+    footer .logo {
+        width: 190px;
+    }
+
+
+    header .navbar a,
+    footer .navbar a {
+        margin-left: 40px;
+    }
+
+    header,
+    section,
+    footer {
+        padding: 64px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .section-explore img,
+    .section-community img {
+        width: 300px;
+    }
+
+    /* header */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* hero */
+    .section-hero {
+        height: 700px;
+    }
+
+    .section-hero h1 {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+    .section-hero h5 {
+        width: 630px;
+        font-size: 32px;
+    }
+
+    /* integrations */
+    .section-integrations-container { 
+        padding-right: 0; 
+        height: 300px; 
+    }
+
+    .section-integrations h3 {
+        margin-left: 84px;
+    }
+
+    /* signup */
+    .section-signup {
+        height: 700px;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
+
+    .section-signup img {
+        max-width: none;
+        width: 900px; 
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-
-}
+@media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
