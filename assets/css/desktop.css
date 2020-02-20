@@ -8,7 +8,7 @@
     }
 
     section {
-        height: 500px;
+        min-height: 500px;
         align-items: center;
     }
 
@@ -61,9 +61,9 @@
     }
 
     /* integrations */
-    .section-integrations-container { 
-        padding-right: 0; 
-        height: 300px; 
+    .section-integrations-container {
+        padding-right: 0;
+        height: 300px;
     }
 
     .section-integrations h3 {
@@ -79,13 +79,104 @@
 
     .section-signup img {
         max-width: none;
-        width: 900px; 
+        width: 900px;
     }
 
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 962px) {
+
+    /* TODOS */
+    .section-signup {
+        height: auto;
+    }
+
+    .section-signup img {
+        width: 1300px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    header,
+    section,
+    footer {
+        padding: 5% 10%;
+    }
+
+    .section-hero h1 {
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    .section-hero h5 {
+        width: 800px;
+        font-size: 40px;
+    }
+
+    .section-hero {
+        height: auto;
+    }
+
+    button {
+        width: 340px !important;
+    }
+
+    .section-explore img,
+    .section-community img {
+        width: 400px;
+        padding-left: 56px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .section-integrations h3 {
+        margin-left: 124px;
+    }
+
+    .section-integrations-container {
+        height: 340px;
+    }
+
+    .section-signup img {
+        width: 113%;
+        margin: 50px 0;
+    }
+
+    section {
+        min-height: 800px;
+    }
+
+    .section-signup-container {
+        height: auto;
+        padding-top: 50px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    .section-signup img {
+        width: 135%;
+    }
+
+    header,
+    section,
+    footer {
+        padding: 5% 20%;
+    }
+
+    .section-hero h5 {
+        width: auto;
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+}
