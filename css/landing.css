@@ -43,6 +43,7 @@
 
 .header {
     display: flex;
+    align-items: center;
     flex-direction: column;
     z-index: 3;
 }
@@ -118,6 +119,8 @@ input {
     flex-direction: column;
     justify-content: flex-end;
     z-index: 3;
+    text-align: center;
+    align-items: center;
 }
 
 h1 {
@@ -132,6 +135,18 @@ h4 {
 h1,
 h4 {
     margin-bottom: 20px;
+}
+
+input {
+    border-radius: 4px;
+}
+
+#mc-embedded-subscribe {
+    border-radius: 4px;
+}
+
+#mc_embed_signup {
+    width: 100%;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -173,4 +188,5 @@ h4 {
     .btn {
         min-width: 200px;
     }
+
 }
