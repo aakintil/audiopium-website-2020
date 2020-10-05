@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="20px" viewBox="0 0 23 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>favorite</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop/song-card/liked" transform="translate(-28.000000, -489.000000)" fill="#FFFFFF">
+            <g id="Group-6-Copy-19">
+                <g id="Group-13" transform="translate(-268.800011, -198.000008)">
+                    <g id="card-content" transform="translate(297.600012, 226.800009)">
+                        <g id="Group-20" transform="translate(0.000000, 182.400007)">
+                            <g id="Group-14" transform="translate(0.000000, 272.400011)">
+                                <g id="favorite" transform="translate(0.000000, 4.800000)">
+                                    <path d="M10.8000004,4.40000017 C9.9960004,2.32160009 7.74360031,0.800000032 5.40000021,0.800000032 C2.34840009,0.800000032 0,3.11840012 0,6.20000025 C0,10.4348004 4.55160018,13.7096005 10.8000004,20.0000008 C17.0484007,13.7096005 21.6000009,10.4348004 21.6000009,6.20000025 C21.6000009,3.11840012 19.2516008,0.800000032 16.2000006,0.800000032 C13.8540006,0.800000032 11.6040005,2.32160009 10.8000004,4.40000017 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

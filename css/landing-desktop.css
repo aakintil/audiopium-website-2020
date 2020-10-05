@@ -1,0 +1,71 @@
+@import 'fonts.css';
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .nav-elements {
+        margin-top: 0;
+    }
+
+    .login {
+        margin-right: 80px;
+    }
+
+    .signup-row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input,
+    .btn {
+        width: 100%;
+        height: 70px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .content {
+        align-items: flex-start;
+    }
+
+    .signup-row {
+        flex-direction: row;
+        align-items: flex-start
+    }
+
+    h1, 
+    h4 {
+        width: 820px;
+    }
+
+    input {
+        width: 500px; 
+        text-align: left;
+        padding-left: 32px;
+        border-radius: 0;
+    }
+
+    .btn {
+        width: 300px; 
+        border-radius: 0;
+    }
+
+    .secondary.btn {
+        width: 100px; 
+    }
+
+}

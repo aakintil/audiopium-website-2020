@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile/music-player/card" transform="translate(-87.000000, -22.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-34">
+                <g id="Group-31" transform="translate(20.000000, 11.000000)">
+                    <g id="pause_circle_filled-24px-copy" transform="translate(60.000000, 5.000000)">
+                        <g id="Group" transform="translate(7.875000, 6.750000)">
+                            <path d="M1.125,9 C0.50625,9 0,8.49375 0,7.875 L0,1.125 C0,0.50625 0.50625,0 1.125,0 C1.74375,0 2.25,0.50625 2.25,1.125 L2.25,7.875 C2.25,8.49375 1.74375,9 1.125,9 Z" id="Path"></path>
+                            <path d="M5.625,9 C5.00625,9 4.5,8.49375 4.5,7.875 L4.5,1.125 C4.5,0.50625 5.00625,0 5.625,0 C6.24375,0 6.75,0.50625 6.75,1.125 L6.75,7.875 C6.75,8.49375 6.24375,9 5.625,9 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

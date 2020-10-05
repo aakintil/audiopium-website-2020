@@ -1,119 +1,225 @@
 <!doctype html>
-<html class="no-js" lang="">
+
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
+
     <title>Audiopium</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon"> -->
+    <meta name="description" content="Audiopium">
+    <meta name="author" content="SiriusLabs">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <!-- <link rel="apple-touch-icon" href="icon.png"> -->
-    <!-- Place favicon.ico in the root directory -->
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width minimum-scale=1.0 maximum-scale=1.0 user-scalable=no" />
 
-    <!-- css files -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/desktop.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressively/dist/progressively.min.css">
-
-    <!-- js files -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/progressively/dist/progressively.min.js"></script>
-    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-    <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+    <div class="app-container">
+        <div class="mobile-menu container">
 
-    <header>
-        <div class="logo-container">
-            <a href="https://web.audiopium.co/"><img class="logo" src="assets/imgs/audiopium-blue-logo.svg" alt="logo"></a>
+            <!-- end of .mobile-menu .container -->
         </div>
 
-        <div class="navbar-container">
-            <ul class="navbar">
-                <li><a href="https://web.audiopium.co/login">Login</a></li>
-                <li><a href="https://web.audiopium.co/register">Register</a></li>
-            </ul>
+        <div class="navbar container">
+            <div class="logo-wrapper">
+                <img class="logo" src="logo.svg" alt="audiopium logo">
+            </div>
+
+            <div class="menu-button-wrapper">
+                <a href="" class="menu-button">Menu</a>
+            </div>
+
+            <!-- end of .navbar .container -->
         </div>
-    </header>
 
-    <section class="section section-hero">
-        <div class="section-hero-container">
-            <h1>Fresh</h1>
-            <h1>Free</h1>
-            <h1>Music</h1>
-
-            <h5>
-                Popular music from various platforms, curated by music-lovers, for music-lovers
-            </h5>
-
-            <a href="https://web.audiopium.co/">
-                <button>
-                    Start Taking Audiopium
-                </button>
-            </a>
+        <div class="add-music container">
+            <input type="text" placeholder="Add Music Or Video URL">
+            <button id="add-url-btn" class="primary-btn btn disabled">Add</button>
+            <!-- end of .add-music .container -->
         </div>
-    </section>
 
-    <section class="section section-explore">
-        <h3>
-            Explore new music from our audio-addicted community, every week
-        </h3>
+        <div class="page-header container">
+            <h1 class="page-header-title">
+                Explore
+            </h1>
 
-        <img src="assets/imgs/music-icon.svg" alt="music-icon">
-    </section>
+            <input type="text" class="page-header-search" placeholder="Search Music">
 
-    <section class="section section-integrations">
-        <div class="section-integrations-container">
-            <img src="assets/imgs/spotify-green-logo.svg" alt="spotify">
-            <img src="assets/imgs/youtube-red-logo.svg" alt="youtube">
-            <img src="assets/imgs/deezer-logo.svg" alt="deezer">
+            <div class="page-header-row-actions">
+                <p class="section-title">
+                    Today's Songs
+                </p>
+                <a href="" class="link-btn">Play All</a>
+                <a href="" class="link-btn">View All</a>
+            </div>
+            <!-- end of .page-header .container -->
         </div>
-        <h3>
-            Get the latest hits from music platforms you use everday
-        </h3>
-    </section>
 
-    <section class="section section-community">
-        <h3>
-            Comment and engage with other audiophiles in our community
-        </h3>
+        <div class="page-content container">
+            <div class="mobile music-list-container">
+                <div class="mobile-card songs-card">
+                    <div class="mobile-card-info-row">
+                        <div class="mobile-card-photo-container">
+                            <img src="imgs/album-art.png" alt="" class="mobile-card-photo">
+                        </div>
 
-        <img src="assets/imgs/community-icon.svg" alt="community-icon">
-    </section>
+                        <div class="mobile-card-info">
+                            <div class="mobile-card-info-top">
+                                <p class="mobile-card-title">Juke Jam</p>
+                                <p class="mobile-card-artist">Chance The Rapper</p>
+                            </div>
 
-    <section class="section section-signup">
+                            <div class="mobile-card-info-bottom">
+                                <p class="mobile-card-poster-name">Zachary Glagola</p>
+                                <p class="mobile-card-posted-date">August 24, 2020</p>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="section-signup-container">
+                    <div class="mobile-card-actions-row">
+                        <button class="secondary-btn small-btn">Preview</button>
+                        <button class="tertiary-btn small-btn">Listen</button>
+                        <a href="" class="icon">
+                            <img src="icons/heart-icon.svg" alt="" class="icon-btn like-btn toggled-btn">
+                        </a>
+                        <a href="" class="icon">
+                            <img src="icons/share-icon.svg" alt="" class="icon-btn share-btn">
+                        </a>
+                    </div>
+                </div>
 
-            <h3>
-                Sign up and get your daily dose of free music.
-            </h3>
-            <img src="assets/imgs/audiopium-cards.png" alt="audiopium-cards">
+                <div class="mobile-card songs-card">
+                    <div class="mobile-card-info-row">
+                        <div class="mobile-card-photo-container">
+                            <img src="imgs/album-art-2.png" alt="" class="mobile-card-photo">
+                        </div>
+
+                        <div class="mobile-card-info">
+                            <div class="mobile-card-info-top">
+                                <p class="mobile-card-title">Roses</p>
+                                <p class="mobile-card-artist">St Jhn</p>
+                            </div>
+
+                            <div class="mobile-card-info-bottom">
+                                <p class="mobile-card-poster-name">Aderinsola Akintilo Adeoye</p>
+                                <p class="mobile-card-posted-date">Added April 17th, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-card-actions-row">
+                        <button class="secondary-btn small-btn">Preview</button>
+                        <button class="tertiary-btn small-btn">Listen</button>
+                        <a href="" class="icon">
+                            <img src="icons/heart-icon.svg" alt="" class="icon-btn like-btn toggled-btn">
+                        </a>
+                        <a href="" class="icon">
+                            <img src="icons/share-icon.svg" alt="" class="icon-btn share-btn">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mobile-card videos-card">
+                    <div class="mobile-card-info-row">
+                        <div class="mobile-card-photo-container">
+                            <img src="imgs/album-art-3.png" alt="" class="mobile-card-photo">
+                        </div>
+
+                        <div class="mobile-card-info">
+                            <div class="mobile-card-info-top">
+                                <p class="mobile-card-title">Trouble Will Find Me</p>
+                                <p class="mobile-card-artist">The National</p>
+                            </div>
+
+                            <div class="mobile-card-info-bottom">
+                                <p class="mobile-card-poster-name">Hermona Tamrat</p>
+                                <p class="mobile-card-posted-date">Added April 17th, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-card-actions-row">
+                        <button class="secondary-btn small-btn">Watch</button>
+                        <a href="" class="icon">
+                            <img src="icons/heart-icon.svg" alt="" class="icon-btn like-btn">
+                        </a>
+                        <a href="" class="icon">
+                            <img src="icons/share-icon.svg" alt="" class="icon-btn share-btn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile audio-player container">
+                <div class="audio-player-progress-bar">
+                    <div class="audio-player-progress">
+                        <!-- see css for width structure -->
+                    </div>
+                </div>
+                <div class="audio-player-top">
+                    <a href="" class="icon">
+                        <img src="icons/previous-icon.svg" alt="" class="icon-btn prev-icon">
+                    </a>
+                    <a href="" class="icon">
+                        <img src="icons/pause-icon.svg" alt="" class="icon-btn prev-icon">
+                    </a>
+                    <a href="" class="icon">
+                        <img src="icons/next-icon.svg" alt="" class="icon-btn prev-icon">
+                    </a>
+                    <a href="" class="icon">
+                        <img src="icons/shuffle-icon.svg" alt="" class="icon-btn prev-icon">
+                    </a>
+                    <a href="" class="icon">
+                        <img src="icons/cancel-icon.svg" alt="" class="icon-btn prev-icon">
+                    </a>
+                </div>
+                <div class="audio-player-bottom">
+                    <div class="audio-player-photo-container">
+                        <img src="imgs/album-art.png" alt="" class="audio-player-card-photo">
+                    </div>
+
+                    <div class="audio-player-info">
+                        <p class="audio-player-song-title">
+                            Juke Jam
+                        </p>
+
+                        <p class="audio-player-artist">
+                            Chance The Rapper
+                        </p>
+                    </div>
+
+                    <a href="" class="icon">
+                        <img src="icons/heart-icon.svg" alt="" class="icon-btn like-btn">
+                    </a>
+                    <a href="" class="icon">
+                        <img src="icons/share-icon.svg" alt="" class="icon-btn share-btn">
+                    </a>
+                </div>
+                <!-- end of .mobile.audio-player -->
+            </div>
+
+
+            <div class="desktop audio-player container">
+
+                <!-- end of .audio-player .container -->
+            </div>
+
+            <div class="desktop video-player container">
+
+                <!-- end of .video-player .container -->
+            </div>
+
+            <!-- end of .page-content .container -->
         </div>
-        <a href="https://web.audiopium.co/register">
-            <button>
-                create an account
-            </button>
-        </a>
-    </section>
 
-    <footer>
-        <div class="logo-container">
-            <a href="https://web.audiopium.co/"><img class="logo" src="assets/imgs/audiopium-white-logo.svg" alt="logo"></a>
-        </div>
-        <ul class="navbar">
-            <li><a href="https://web.audiopium.co/login">Login</a></li>
-            <li><a href="https://web.audiopium.co/register">Register</a></li>
-        </ul>
-    </footer>
-
-<!-- end of body -->
+        <!-- end .app-container -->
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,282 @@
+@import 'fonts.css';
+
+body {
+    background: #222222;
+    padding: 20px;
+    color: white;
+    font-family: "EuclidSquare";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.desktop {
+    display: none;
+}
+
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.mobile-menu {
+    position: fixed;
+}
+
+.primary-btn {
+    height: 40px;
+    color: white;
+    background: #0071F4;
+    border: none;
+}
+
+.disabled {
+    opacity: 0.54;
+}
+
+.enabled {
+    opacity: 1;
+}
+
+/* navbar */
+.navbar {
+    justify-content: space-between;
+}
+
+/* general */
+h1 {
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+input {
+    height: 40px;
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+/* add-music */
+.add-music {
+    justify-content: space-between;
+}
+
+.add-music input {
+    width: 80%;
+    border: none;
+}
+
+.add-music .btn {
+    width: 20%;
+    font-size: 12px;
+}
+
+
+
+/* page-header */
+.page-header {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+/* .page-header>* {
+    margin-bottom: 24px;
+} */
+
+.page-header-title {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.page-header-row-actions {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.page-header-search {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    color: white;
+    margin-bottom: 48px;
+    padding: 0;
+    padding-left: 2px
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* content */
+.music-list-container {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 112px;
+    /* height of the mobile audioplayer */
+}
+
+/* mobile cards */
+.mobile-card {
+    height: 148px;
+    border-top: 1px solid #565656;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.mobile-card-info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-card-info-top {
+    font-size: 14px;
+}
+
+.mobile-card-info-row p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 148px;
+}
+
+.mobile-card-info-bottom p {
+    opacity: 0.75;
+    letter-spacing: 0.5px;
+}
+
+.mobile-card-photo {
+    width: 88px;
+    height: 88px;
+    border-radius: 88px;
+}
+
+.mobile-card-info {
+    font-size: 12px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.mobile-card-actions-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.small-btn {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 0.5px;
+    width: 88px;
+}
+
+.secondary-btn {
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+.tertiary-btn {
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    color: white;
+}
+
+/* icons */
+.icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn {
+    opacity: 0.55;
+}
+
+.toggled-btn {
+    opacity: 1;
+}
+
+/* mobile auido player */
+.mobile.audio-player {
+    position: fixed;
+    bottom: -32px;
+    background: #363738;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile.audio-player .icon-btn {
+    width: 14px;
+}
+
+.audio-player-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio-player-card-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.audio-player-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.audio-player-info p {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 148px;
+}
+
+.audio-player-progress-bar {
+    background: #868787; 
+    position: absolute;
+    width: 100%;
+    height: 4px; 
+    top: 0; 
+    left: 0; 
+}
+
+.audio-player-progress {
+    background: white; 
+    position: absolute;
+    width: 44%; 
+    height: 4px; 
+    top: 0; 
+    left: 0;
+}
