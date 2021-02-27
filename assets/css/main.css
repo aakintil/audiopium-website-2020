@@ -1,5 +1,5 @@
 @import '@animxyz/core';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
 
 
 html, 
@@ -11,110 +11,5 @@ body,
     width: 100%;
     padding: 0;
     margin: 0;
-}
-
-#__layout > div {
-    display: flex;
-    justify-content: center;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    background: #F2F2F2;
-    padding: 32px; 
-    color: #161214;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-width: 360px;
-}
-
-.logo, 
-.role {
-    color: #161214;
-    font-weight: 700;
-}
-
-.logo, 
-.btn,
-.footer-links {
-    text-decoration: none;
-}
-
-.logo {
-    font-size: 16px;
-}
-
-.role {
-    opacity: 0.56;
-    font-size: 12px;
-}
-
-header {
-    margin-bottom: 48px;
-}
-
-h1 {
-    line-height: 32px;
-    margin-bottom: 40px;
-}
-
-h5 {
-    font-weight: 500;
-    margin: 0; 
-    margin-bottom: 8px;
-}
-
-.btn, 
-.footer-links {
-    color: #161214; 
-    font-weight: 600;
-    font-size: 12px;
-}
-
-.btn {
-    height: 48px;
-    background: #F2F2F2;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 48px;
-    border: 2px solid #161214; 
-}
-
-.btn:hover, 
-.footer-links:hover {
-    opacity: 0.5;
-}
-
-section {
-    flex: auto;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-
-
-footer .row {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-
-.footer-links {
-    flex: 1;
-    margin: 8px 0;
-    text-decoration: underline;
-    text-align: left;
 }
 
