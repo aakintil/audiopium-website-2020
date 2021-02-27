@@ -2,7 +2,7 @@
   <div class="container" xyz="fade in stagger ease-in-out delay-15">
     <!-- <Logo /> -->
     <header class="xyz-in">
-
+      <Logo></Logo>
     </header>
     <section class="content xyz-in">
      
@@ -14,5 +14,11 @@
 </template>
 
 <script>
-export default {};
+import Logo from '~/components/Logo.vue'
+
+export default {
+  components: {
+    Logo,
+  },
+}
 </script>
